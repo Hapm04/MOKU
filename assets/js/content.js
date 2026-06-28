@@ -40,7 +40,7 @@ window.MOKU_I18N = {
     about: {
       title: "About MOKU Kitchenware", subtitle: "MOKU – Shaping Your Kitchen",
       desc: "MOKU Kitchenware Co., Ltd. is a Vietnamese wooden kitchenware brand built on the harmony of traditional craftsmanship, sustainable materials and contemporary design.",
-      originTitle: "Brand Name", originDesc: "The name MOKU is derived from the Japanese word 木, meaning wood. It represents warmth, durability and sustainability.",
+      originTitle: "MOKU", originDesc: "The name MOKU is derived from the Japanese word 木, meaning wood. It represents warmth, durability and sustainability.",
       philosophyTitle: "Brand Philosophy", philosophyDesc: "MOKU also functions as an acronym for the company's four core brand values: Minimal, Organic, Kind and Useful.",
       logoTitle: "Logo Concept and Visual Identity", logoDesc: "The MOKU logo communicates the brand identity through a clean, minimalist visual composition, combining kitchenware symbols with a modern wordmark.",
       visionTitle: "Vision", vision: "To become the leading Direct-to-Consumer (D2C) wooden kitchenware brand in Vietnam by pioneering the harmonious integration of traditional craftsmanship, sustainable materials, and contemporary design.",
