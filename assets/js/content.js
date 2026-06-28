@@ -26,10 +26,10 @@ window.MOKU_I18N = {
       partnersTitle: "Designed for Modern Kitchen Channels", partnersDesc: "Suitable for direct-to-consumer sales, corporate gifts, kitchen studios, restaurants and retail partners."
     },
     features: [
-      {icon:"🌿", title:"Natural", desc:"Food-safe wooden materials selected for everyday cooking."},
-      {icon:"🪵", title:"Crafted", desc:"Smooth finishes, careful edges and traditional woodworking details."},
-      {icon:"♻️", title:"Sustainable", desc:"Reusable products and conscious packaging that reduce kitchen waste."},
-      {icon:"🍳", title:"Useful", desc:"Ergonomic, practical tools that improve kitchen convenience."}
+      {icon:"🌿", title:"Wellness-Oriented Design", desc:"Protect consumers’ health through the use of high-quality, food-safe, and chemical-free materials"},
+      {icon:"🪵", title:"Minimalist Innovation", desc:"Continuously innovates smart, multi-functional kitchenware → reduces clutter & enhances cooking experiences"},
+      {icon:"♻️", title:"Sustainable", desc:"Use responsibly sourced wood, reusable designs, and eco-friendly packaging →  reduce ecological impact"},
+      {icon:"🍳", title:"Transparency & Trust", desc:"Being built through consistent product quality, reliable performance, and transparent communication"}
     ],
     values: [
       {letter:"M", title:"Minimal", desc:"Clean lines, uncluttered forms and Japandi-inspired aesthetics."},
