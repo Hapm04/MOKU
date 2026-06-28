@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MOKU Kitchenware - Shaping Your Kitchen">
+  <title>MOKU Kitchenware - Shaping Your Kitchen</title>
+  <link rel="icon" href="../assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <div class="topbar__left"><span data-i18n="common.legalPrefix">Official company</span>: <strong class="company-name">MOKU Kitchenware Co., Ltd.</strong></div>
+        <div class="topbar__right"><span data-i18n="common.hotline">Hotline</span>: <a class="phone-link company-phone" href="#">+84 35 670 0486</a><span>•</span><span class="company-address">Nguyen Thi Thap Street, District 7, Ho Chi Minh City, Vietnam</span></div>
+      </div>
+    </div>
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container navbar__inner">
+        <a href="../trang-chu/" class="brand" data-route="home" aria-label="MOKU Kitchenware">
+          <img src="../assets/images/logo.png" alt="MOKU Kitchenware" class="brand__logo">
+          <span class="brand__text">MOKU <small class="brand__tag">Shaping Your Kitchen</small></span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="../trang-chu/" data-route="home" data-i18n="common.navHome">Home</a></li>
+          <li><a href="../gioi-thieu/" data-route="about" data-i18n="common.navAbout">About</a></li>
+          <li class="has-dropdown">
+            <a href="../san-pham/" data-route="products" data-i18n="common.navProducts">Products</a>
+            <ul class="dropdown">
+              <li><a href="../san-pham/" data-route="products" data-product-menu="0">Multi-Functional Cutting Board Set</a></li>
+              <li><a href="../san-pham/" data-route="products" data-product-menu="2">Cooking Utensils Set</a></li>
+              <li><a href="../san-pham/" data-route="products" data-product-menu="4">Serving Plate &Tray Set</a></li>
+              <li><a href="../san-pham/" data-route="products" data-product-menu="5">Pot Trivets & Coasters</a></li>
+              <li><a href="../san-pham/" data-route="products" data-product-menu="6">Knife & Scissors Block</a></li>
+            </ul>
+          </li>
+          <li><a href="../tin-tuc/" data-route="news" data-i18n="common.navNews">News</a></li>
+          <li><a href="../lien-he/" data-route="contact" data-i18n="common.navContact">Contact</a></li>
+          <li><div class="lang-switch" aria-label="Language"><button type="button" data-lang="en">EN</button><button type="button" data-lang="vi">VI</button></div></li>
+          <li><button class="quote-basket" id="openQuote" type="button"><span id="quoteCount">0</span> <em data-i18n="common.quoteList">Quote List</em></button></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="pageRoot"></main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <div class="logo-word">MOKU</div>
+        <p data-i18n="common.brandTagline">Shaping Your Kitchen</p>
+        <p class="company-name">MOKU Kitchenware Co., Ltd.</p>
+      </div>
+      <div>
+        <h4 data-i18n="common.quickLinks">Quick Links</h4>
+        <a href="../trang-chu/" data-route="home" data-i18n="common.navHome">Home</a>
+        <a href="../gioi-thieu/" data-route="about" data-i18n="common.navAbout">About</a>
+        <a href="../san-pham/" data-route="products" data-i18n="common.navProducts">Products</a>
+        <a href="../tin-tuc/" data-route="news" data-i18n="common.navNews">News</a>
+        <a href="../lien-he/" data-route="contact" data-i18n="common.navContact">Contact</a>
+      </div>
+      <div>
+        <h4 data-i18n="common.contactInfo">Contact Information</h4>
+        <a class="phone-link" href="#"><span data-i18n="common.hotline">Hotline</span>: <span class="company-phone">+84 35 670 0486</span></a>
+        <a class="email-link" href="#"><span data-i18n="common.email">Email</span>: <span class="company-email">info@mokukitchenware.com</span></a>
+        <a class="website-link" href="#" target="_blank" rel="noopener"><span data-i18n="common.website">Website</span>: <span class="company-website">www.mokukitchenware.com</span></a>
+      </div>
+    </div>
+    <div class="container footer__bottom">© 2026 MOKU Kitchenware. Static bilingual website for GitHub deployment.</div>
+  </footer>
+
+  <div class="floating-actions" aria-label="Quick contact">
+    <a class="phone-link" href="#" data-i18n="common.call">Call</a>
+    <a class="zalo-link" href="#" target="_blank" rel="noopener" data-i18n="common.zalo">Zalo</a>
+    <button id="floatQuote" type="button" data-i18n="common.quoteList">Cart</button>
+  </div>
+
+  <aside class="cart-panel" id="quotePanel" aria-hidden="true">
+    <div class="cart-panel__box">
+      <div class="cart-panel__header"><h3 id="quotePanelTitle">Quote List</h3><button id="closeQuote" type="button" aria-label="Close">×</button></div>
+      <div class="quote-items" id="quoteItems"></div>
+      <div class="cart-total"><span id="cartSubtotalLabel">Subtotal</span><strong id="cartTotal">0đ</strong></div>
+      <div class="quote-actions"><button class="btn btn--primary" id="openQuoteLink" type="button">Open Quote Link</button><button class="btn btn--outline" id="clearQuote" type="button">Clear List</button></div>
+    </div>
+  </aside>
+
+  <script>window.MOKU_BASE = "../"; window.MOKU_PAGE = "news";</script>
+  <script src="../assets/js/config.js"></script>
+  <script src="../assets/js/content.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
