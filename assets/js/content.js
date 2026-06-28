@@ -58,22 +58,22 @@ window.MOKU_I18N = {
       all: "All", board: "Cutting Boards", utensils: "Utensils", serveware: "Serveware", organizer: "Organizer", care: "Kitchen Accessories"
     },
     productList: [
-      {sku:"board-set", cat:"board", img:"product-board.jpg", price:189000, name:"Multi-Functional Cutting Board Set", viName:"Bộ thớt gỗ đa năng", desc:"A durable and practical board set for preparation, serving and everyday kitchen use."},
-      {sku:"spoon-fork-set", cat:"utensils", img:"product-spoon.jpg", price:27000, name:"Spoon & Fork Set", viName:"Bộ muỗng nĩa", desc:"Smooth wooden spoons and forks for warm, natural table settings."},
-      {sku:"cooking-utensils-set", cat:"utensils", img:"product-utensil.jpg", price:31000, name:"Cooking Utensils Set", viName:"Bộ dụng cụ nấu nướng", desc:"Spatulas, ladles and stir-fry tools designed for comfortable everyday cooking."},
-      {sku:"wooden-plate-set", cat:"serveware", img:"product-baby-tray.jpg", price:199000, name:"Wooden Plate Set", viName:"Bộ dĩa gỗ", desc:"Minimal wooden plates that bring natural warmth to meals and presentation."},
+      {sku:"board-set", cat:"board", img:"product-board.jpg", price:499.000, name:"Multi-Functional Cutting Board Set", viName:"Bộ thớt gỗ đa năng", desc:"A durable and practical board set for preparation, serving and everyday kitchen use."},
+      {sku:"spoon-fork-set", cat:"utensils", img:"product-spoon.jpg", price:399.000, name:"Spoon & Fork Set", viName:"Bộ muỗng nĩa", desc:"Smooth wooden spoons and forks for warm, natural table settings."},
+      {sku:"cooking-utensils-set", cat:"utensils", img:"product-utensil.jpg", price:599.000, name:"Cooking Utensils Set", viName:"Bộ dụng cụ nấu nướng", desc:"Spatulas, ladles and stir-fry tools designed for comfortable everyday cooking."},
+      {sku:"wooden-plate-set", cat:"serveware", img:"product-baby-tray.jpg", price:999.000, name:"Wooden Plate Set", viName:"Bộ dĩa gỗ", desc:"Minimal wooden plates that bring natural warmth to meals and presentation."},
       {sku:"serving-tray-set", cat:"serveware", img:"product-tray.jpg", price:119000, name:"Serving Tray Set", viName:"Bộ khay đựng gỗ", desc:"Elegant serving trays for dining tables, cafes, restaurants and gift sets."},
-      {sku:"trivets-coasters", cat:"care", img:"product-roller.jpg", price:89000, name:"Pot Trivets & Coasters", viName:"Đồ lót đế nồi & lót ly", desc:"Protective wooden trivets and coasters for a cleaner, more organized table."},
-      {sku:"knife-scissors-block", cat:"organizer", img:"product-knife-rack.jpg", price:259000, name:"Knife & Scissors Block", viName:"Kệ để dao kéo", desc:"A compact organizer that keeps knives, scissors and kitchen tools neatly arranged."}
+      {sku:"trivets-coasters", cat:"care", img:"product-roller.jpg", price:599.000, name:"Pot Trivets & Coasters", viName:"Đồ lót đế nồi & lót ly", desc:"Protective wooden trivets and coasters for a cleaner, more organized table."},
+      {sku:"knife-scissors-block", cat:"organizer", img:"product-knife-rack.jpg", price:499.000, name:"Knife & Scissors Block", viName:"Kệ để dao kéo", desc:"A compact organizer that keeps knives, scissors and kitchen tools neatly arranged."}
     ],
     categories: ["Food preparation", "Cooking tools", "Dining & serving", "Table protection", "Kitchen organization", "Gift & retail sets"],
     news: {
       title: "News & Articles", desc: "Content areas for SEO articles, product updates and sustainable kitchen tips."
     },
     newsList: [
-      {img:"news-care.svg", date:"Kitchen Care", title:"How to care for wooden kitchenware", desc:"Simple practices to keep wooden tools clean, smooth and long-lasting."},
-      {img:"news-kitchen.svg", date:"Minimal Living", title:"Building a clutter-free Japandi kitchen", desc:"A practical approach to organizing tools while keeping warmth and function."},
-      {img:"news-gift.svg", date:"Gift Ideas", title:"Wooden kitchenware as corporate gifts", desc:"Elegant, useful and sustainable product sets for thoughtful gifting."}
+      {img:"news-care.jpg", date:"Kitchen Care", title:"How to care for wooden kitchenware", desc:"Simple practices to keep wooden tools clean, smooth and long-lasting."},
+      {img:"news-kitchen.jpg", date:"Minimal Living", title:"Building a clutter-free Japandi kitchen", desc:"A practical approach to organizing tools while keeping warmth and function."},
+      {img:"news-gift.jpg", date:"Gift Ideas", title:"Wooden kitchenware as corporate gifts", desc:"Elegant, useful and sustainable product sets for thoughtful gifting."}
     ],
     contact: {
       title: "Contact MOKU", desc: "Connect with MOKU Kitchenware for product information, wholesale inquiries, corporate gifts or partnership opportunities.",
