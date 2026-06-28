@@ -62,7 +62,7 @@ window.MOKU_I18N = {
       {sku:"spoon-fork-set", cat:"utensils", img:"product-spoon.jpg", price:399000, name:"Spoon & Fork Set", viName:"Bộ muỗng nĩa", desc:"Smooth wooden spoons and forks for warm, natural table settings."},
       {sku:"cooking-utensils-set", cat:"utensils", img:"product-utensil.jpg", price:599000, name:"Cooking Utensils Set", viName:"Bộ dụng cụ nấu nướng", desc:"Spatulas, ladles and stir-fry tools designed for comfortable everyday cooking."},
       {sku:"wooden-plate-set", cat:"serveware", img:"product-baby-tray.jpg", price:999000, name:"Wooden Plate Set", viName:"Bộ dĩa gỗ", desc:"Minimal wooden plates that bring natural warmth to meals and presentation."},
-      {sku:"serving-tray-set", cat:"serveware", img:"product-tray.jpg", price:119000, name:"Serving Tray Set", viName:"Bộ khay đựng gỗ", desc:"Elegant serving trays for dining tables, cafes, restaurants and gift sets."},
+      {sku:"serving-tray-set", cat:"serveware", img:"product-tray.jpg", price:499000, name:"Serving Tray Set", viName:"Bộ khay đựng gỗ", desc:"Elegant serving trays for dining tables, cafes, restaurants and gift sets."},
       {sku:"trivets-coasters", cat:"care", img:"product-roller.jpg", price:599000, name:"Pot Trivets & Coasters", viName:"Đồ lót đế nồi & lót ly", desc:"Protective wooden trivets and coasters for a cleaner, more organized table."},
       {sku:"knife-scissors-block", cat:"organizer", img:"product-knife-rack.jpg", price:499000, name:"Knife & Scissors Block", viName:"Kệ để dao kéo", desc:"A compact organizer that keeps knives, scissors and kitchen tools neatly arranged."}
     ],
